@@ -1,0 +1,35 @@
+{
+  "name": "mast-manga-tellbot",
+  "version": "1.0.0",
+  "description": "fellan hichi nist",
+  "main": "main.js",
+  "scripts": {
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lord-ilghar/mast-manga-tellbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lord-ilghar/mast-manga-tellbot/issues"
+  },
+  "homepage": "https://github.com/lord-ilghar/mast-manga-tellbot#readme",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "nedb": "^1.8.0",
+    "node-telegram-bot-api": "^0.57.0",
+    "ts-node": "^10.8.1",
+    "tsc": "^2.0.4",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@types/nedb": "^1.8.12",
+    "@types/node-telegram-bot-api": "^0.57.1",
+    "nodemon": "^2.0.16"
+  },
+  "type": "module"
+}
